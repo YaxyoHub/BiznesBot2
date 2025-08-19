@@ -30,7 +30,7 @@ async def admin_cmd(message: Message):
 @command_router.message(F.text.in_(['/about', 'ℹ️ Bot haqida']))
 async def about_cmd(message: Message):
     await message.reply("""
-__Bot_Name__ 🤖
+Biznes Bot 🤖
                         
 Ushbu bot orqali siz o'z biznesizngiz uchun 
 <b>Telegram Bot</b> va <b>Web-Saytlar uchun</b>
